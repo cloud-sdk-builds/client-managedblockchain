@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-managedblockchain`](https://www.npmjs.com/package/@aws-sdk/client-managedblockchain/v/3.29.0).
+[`@aws-sdk/client-managedblockchain`](https://www.npmjs.com/package/@aws-sdk/client-managedblockchain/v/3.30.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.29.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.30.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-V6BG9St36x04Q1mvBP5q30KRsVF9sxa0nCDXk1J2LK/xbFrJbQOZRy5N81RUsGvF
+sha384-oT6DfdsMrTnw8pDsVdxXjmWRpyFpWCXbKKWgLqeSkJ8jnpBiui8uVAeDz3dr904H
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-managedblockchain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.29.0/index.min.mjs"
+            "@aws-sdk/client-managedblockchain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.30.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.29.0/index.min.mjs": "sha384-V6BG9St36x04Q1mvBP5q30KRsVF9sxa0nCDXk1J2LK/xbFrJbQOZRy5N81RUsGvF"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.30.0/index.min.mjs": "sha384-oT6DfdsMrTnw8pDsVdxXjmWRpyFpWCXbKKWgLqeSkJ8jnpBiui8uVAeDz3dr904H"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-managedblockchain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.29.0/index.min.mjs"
+                        "@aws-sdk/client-managedblockchain": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.30.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.29.0/index.min.mjs": "sha384-V6BG9St36x04Q1mvBP5q30KRsVF9sxa0nCDXk1J2LK/xbFrJbQOZRy5N81RUsGvF"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-managedblockchain@3.30.0/index.min.mjs": "sha384-oT6DfdsMrTnw8pDsVdxXjmWRpyFpWCXbKKWgLqeSkJ8jnpBiui8uVAeDz3dr904H"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.29.0`)
+* Always pin to a specific version (`@3.30.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-managedblockchain/blob/refs/tags/3.29.0/LICENSE
+https://github.com/cloud-sdk-builds/client-managedblockchain/blob/refs/tags/3.30.0/LICENSE
 ```
 
 ---
